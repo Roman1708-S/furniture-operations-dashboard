@@ -2,12 +2,9 @@
 
 A starter analytics project for a custom furniture business. It calculates direct profitability for every order while keeping **materials** and **components** as separate cost categories.
 
-## What it does
+## Live dashboard
 
-- reads orders, inventory catalogues, labour rates, and item usage from an Excel workbook;
-- calculates material, component, delivery, and labour costs per order;
-- calculates direct margin, profit after labour, and profit per work hour;
-- exports a clean CSV report that can later power a Streamlit dashboard.
+[Open the interactive dashboard](https://furniture-operations-dashboard-3au6jfpiho8wphr33ksyxk.streamlit.app/)
 
 ## Project files
 
@@ -41,6 +38,6 @@ The included example report covers eight orders in the Vancouver area from Janua
 
 ## Next step
 
-Build a Streamlit interface to filter orders by city, product, status, and period; then add KPI cards and profitability charts.
+Use the live dashboard to explore new orders and extend it with additional operational metrics.
 
 > The figures in this repository are a sample operating model for learning and portfolio purposes.
