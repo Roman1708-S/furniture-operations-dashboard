@@ -102,10 +102,10 @@ def main() -> None:
     report = calculate(args.workbook, args.output)
     summary = report[["Revenue (C$)", "Direct Cost (C$)", "Total Labour Cost (C$)", "Profit After Labour (before overhead) (C$)"]].sum()
     print(f"Processed {len(report)} orders")
-    print(f"Revenue: C$${summary['Revenue (C$)']:,.2f}")
-    print(f"Direct cost: C$${summary['Direct Cost (C$)']:,.2f}")
-    print(f"Labour cost: C$${summary['Total Labour Cost (C$)']:,.2f}")
-    print(f"Profit after labour (before overhead): C$${summary['Profit After Labour (before overhead) (C$)']:,.2f}")
+    print(f"Revenue: C${summary['Revenue (C$)']:,.2f}")
+    print(f"Direct cost: C${summary['Direct Cost (C$)']:,.2f}")
+    print(f"Labour cost: C${summary['Total Labour Cost (C$)']:,.2f}")
+    print(f"Profit after labour (before overhead): C${summary['Profit After Labour (before overhead) (C$)']:,.2f}")
     print(f"Saved report: {args.output}")
 
 
