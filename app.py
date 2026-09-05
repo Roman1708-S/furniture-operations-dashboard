@@ -126,11 +126,16 @@ st.plotly_chart(trend_chart, width="stretch")
 
 st.subheader("Orders to review")
 review = filtered.assign(
-    **{"Margin after labour": filtered["Margin After Labour (%)"].map(pct)}
+    **{
+        "Order Date": filtered["Order Date"].dt.strftime("%d %b %Y"),
+        "Revenue": filtered["Revenue (C$)"].map(cad),
+        "Profit after labour": filtered["Profit After Labour (before overhead) (C$)"].map(cad),
+        "Margin after labour": filtered["Margin After Labour (%)"].map(pct),
+    }
 )[[
-    "Order ID", "Order Date", "City", "Product", "Status", "Revenue (C$)",
-    "Profit After Labour (before overhead) (C$)", "Margin after labour", "Repeat Visits", "Issue",
-]].sort_values("Profit After Labour (before overhead) (C$)")
+    "Order ID", "Order Date", "City", "Product", "Status", "Revenue",
+    "Profit after labour", "Margin after labour", "Repeat Visits", "Issue",
+]].loc[filtered["Profit After Labour (before overhead) (C$)"].sort_values().index]
 st.table(review)
 
 st.caption("Source: order_profitability_report.csv. Values are a sample operating model for learning and portfolio purposes.")
