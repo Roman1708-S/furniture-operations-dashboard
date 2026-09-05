@@ -1,0 +1,9 @@
+Order ID,Order Date,City,Product,Status,Revenue (C$),Material Cost (C$),Component Cost (C$),Delivery Cost (C$),Direct Cost (C$),Gross Profit Before Labour (C$),Direct Margin (%),Production Hrs,Install Hrs,Production Labour Rate (C$/hr),Installation Labour Rate (C$/hr),Production Labour Cost (C$),Installation Labour Cost (C$),Total Labour Cost (C$),Profit After Labour (before overhead) (C$),Margin After Labour (%),Total Work Hours,Profit After Labour / Work Hour (C$),Repeat Visits,Issue
+ORD-001,2026-01-08,Vancouver,Kitchen,Completed,12500,5894.10,799.40,450,7143.50,5356.50,0.43,48,16,30,35,1440,560,2000,3356.50,0.27,64,52.45,0,
+ORD-002,2026-01-15,Richmond,Walk-in Closet,Completed,7200,1936.80,371.00,260,2567.80,4632.20,0.64,28,10,30,35,840,350,1190,3442.20,0.48,38,90.58,0,
+ORD-003,2026-02-03,Burnaby,Bathroom Vanity,Completed,3400,2141.00,107.10,180,2428.10,971.90,0.29,14,5,30,35,420,175,595,376.90,0.11,19,19.84,1,Minor alignment
+ORD-004,2026-02-17,Vancouver,Kitchen,Delayed,15800,7419.60,961.20,520,8900.80,6899.20,0.44,56,18,30,35,1680,630,2310,4589.20,0.29,74,62.02,1,Countertop delay
+ORD-005,2026-03-02,Surrey,Media Wall,Completed,6200,2114.00,232.80,300,2646.80,3553.20,0.57,25,9,30,35,750,315,1065,2488.20,0.40,34,73.18,0,
+ORD-006,2026-03-19,Richmond,Reach-in Closet,Completed,4900,1307.20,95.10,220,1622.30,3277.70,0.67,20,7,30,35,600,245,845,2432.70,0.50,27,90.10,0,
+ORD-007,2026-04-04,Vancouver,Kitchen,Completed,10900,5181.80,685.10,390,6256.90,4643.10,0.43,43,14,30,35,1290,490,1780,2863.10,0.26,57,50.23,0,
+ORD-008,2026-04-22,New Westminster,Home Office,Completed,5400,1132.00,92.60,240,1464.60,3935.40,0.73,22,8,30,35,660,280,940,2995.40,0.55,30,99.85,0,
