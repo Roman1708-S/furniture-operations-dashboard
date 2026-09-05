@@ -26,9 +26,18 @@ pip install -r requirements.txt
 python calculate_order_profitability.py furniture_operations_starter.xlsx --output outputs/order_profitability_report.csv
 ```
 
+## Run the dashboard
+
+```bash
+streamlit run app.py
+```
+
+The dashboard includes filters for city, product, status, and date; KPI cards;
+profitability charts; and an order-level review table.
+
 ## Current metrics
 
-The included example report covers eight orders in the Vancouver area from January to April 2026. It includes revenue, direct cost, labour cost, profit after labour, margins, work hours, repeat visits, and delivery issues.
+The included example report covers eight orders in the Vancouver area from January to April 2026. It includes revenue, direct cost, labour cost, profit after labour, margin, work hours, repeat visits, and delivery issues.
 
 ## Next step
 
